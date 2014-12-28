@@ -8,7 +8,7 @@ Group:		Libraries
 Source0:	http://downloads.sourceforge.net/tomoe/%{name}-%{version}.tar.gz
 # Source0-md5:	2c2573d405b9bf08c618c8dabf3b668a
 URL:		http://tomoe.sourceforge.net/
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	gtk+2-devel >= 2:2.4.0
 BuildRequires:	intltool >= 0.35.0
 BuildRequires:	libstdc++-devel
